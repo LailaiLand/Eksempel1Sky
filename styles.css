@@ -25,7 +25,12 @@ div.tekst {
 
 }
 
-div.rogue {
+div.list {
+    background-color: gray;
+    border: thin black
+}
+
+div.thief {
     background-color: green;
 }
 
@@ -33,7 +38,7 @@ div.mage {
     background-color: cornflowerblue;
 }
 
-div.fighter {
+div.warrior {
     background-color: crimson;
 }
 

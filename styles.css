@@ -1,23 +1,40 @@
+body {
+    margin-left: 20px;
+}
 .bokser {
     width: 500px;
-    background-color: black;
+    background-color: darkgray;
+    border: solid 2px black;
     margin: 10px;
 }
 
 .overskrift {
     text-align: center;
-    text-shadow: 1px 1px 1px 1px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border: solid 2px black;
+    padding: 10px;
 }
-.rouge {
+
+.boksTekst {
+    padding: 10px;
+}
+
+.rogue {
     background-color: green;
 }
+
 .mage {
     background-color: cornflowerblue;
 }
+
 .fighter {
     background-color: crimson;
 }
+
 .PUNCHCAT {
     background-color: gold;
 }
+

@@ -1,0 +1,23 @@
+.bokser {
+    width: 500px;
+    background-color: black;
+    margin: 10px;
+}
+
+.overskrift {
+    text-align: center;
+    text-shadow: 1px 1px 1px 1px;
+    color: white;
+}
+.rouge {
+    background-color: green;
+}
+.mage {
+    background-color: cornflowerblue;
+}
+.fighter {
+    background-color: crimson;
+}
+.PUNCHCAT {
+    background-color: gold;
+}

@@ -1,14 +1,16 @@
 body {
     margin-left: 20px;
 }
-.bokser {
+
+
+div.boks {
     width: 500px;
     background-color: darkgray;
     border: solid 2px black;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
-.overskrift {
+div.overskrift {
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: white;
@@ -18,23 +20,27 @@ body {
     padding: 10px;
 }
 
-.boksTekst {
+div.tekst {
     padding: 10px;
+
 }
 
-.rogue {
+div.rogue {
     background-color: green;
 }
 
-.mage {
+div.mage {
     background-color: cornflowerblue;
 }
 
-.fighter {
+div.fighter {
     background-color: crimson;
 }
 
-.PUNCHCAT {
+div.PUNCHCAT {
     background-color: gold;
 }
 
+div.spill {
+    background-color: pink;
+}

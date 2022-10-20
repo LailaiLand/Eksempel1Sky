@@ -49,3 +49,17 @@ div.PUNCHCAT {
 div.spill {
     background-color: pink;
 }
+
+div.stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+}
+
+div.signs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+}

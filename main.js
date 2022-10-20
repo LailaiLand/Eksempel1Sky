@@ -29,7 +29,7 @@ function showThief() {
             </ul>
         </div>
     </div>
-    `
+    `;
 }
 
 function showMage() {
@@ -66,7 +66,7 @@ function showMage() {
                         </ul>
                     </div>
                 </div>
-    `
+    `;
 }
 
 function showWarrior () {
@@ -102,7 +102,7 @@ function showWarrior () {
                         </ul>
                     </div>
                 </div>
-    `
+    `;
 }
 
 function showPUNCHCAT() {
@@ -115,16 +115,108 @@ function showPUNCHCAT() {
                             href="https://www.reddit.com/r/skyrim/comments/mmu6f/the_tale_of_punchcat_the_punching_khajiit/">PUNCHING!</a>
                     </div>
                 </div>
-    `
+    `;
 }
 
 function showSpill() {
     blankAll();
     document.getElementById('boksSpill') .innerHTML = /*html*/ `
-    <div class="tekst">
-                    Fun things to come
-                </div>
-    `
+        <div id="top" class="signs"></div>
+        <div id="mid" class="signs"></div>
+        <div id="bun" class="signs"></div>
+    `;
+    selectTop1();
+    selectMid1();
+    selectBun1();
+    
+}
+
+function selectTop1() {
+    document.getElementById('top') .innerHTML = /*html*/ `
+        <button onclick="selectTop4()">↢</button>
+            <img src="img/thief1.png" />
+        <button onclick="selectTop2()">↣</button>
+        `;
+}
+function selectTop2() {
+    document.getElementById('top') .innerHTML = /*html*/ `
+        <button onclick="selectTop1()">↢</button>
+            <img src="img/mage1.png" />
+        <button onclick="selectTop3()">↣</button>
+        `;
+}
+function selectTop3() {
+    document.getElementById('top') .innerHTML = /*html*/ `
+        <button onclick="selectTop2()">↢</button>
+            <img src="img/warrior1.png" />
+        <button onclick="selectTop4()">↣</button>
+        `;
+}
+function selectTop4() {
+    document.getElementById('top') .innerHTML = /*html*/ `
+        <button onclick="selectTop3()">↢</button>
+            <img src="img/punch1.png" />
+        <button onclick="selectTop1()">↣</button>
+        `;
+}
+
+
+function selectMid1() {
+    document.getElementById('mid') .innerHTML = /*html*/ `
+        <button onclick="selectMid4()">↢</button>
+            <img src="img/thief2.png" />
+        <button onclick="selectMid2()">↣</button>
+        `;
+}
+function selectMid2() {
+    document.getElementById('mid') .innerHTML = /*html*/ `
+        <button onclick="selectMid1()">↢</button>
+            <img src="img/mage2.png" />
+        <button onclick="selectMid3()">↣</button>
+        `;
+}
+function selectMid3() {
+    document.getElementById('mid') .innerHTML = /*html*/ `
+        <button onclick="selectMid2()">↢</button>
+            <img src="img/warrior2.png" />
+        <button onclick="selectMid4()">↣</button>
+        `;
+}
+function selectMid4() {
+    document.getElementById('mid') .innerHTML = /*html*/ `
+        <button onclick="selectMid3()">↢</button>
+            <img src="img/punch2.png" />
+        <button onclick="selectMid1()">↣</button>
+        `;
+}
+
+function selectBun1() {
+    document.getElementById('bun') .innerHTML = /*html*/ `
+        <button onclick="selectBun4()">↢</button>
+            <img src="img/thief3.png" />
+        <button onclick="selectBun2()">↣</button>
+        `;
+}
+function selectBun2() {
+    document.getElementById('bun') .innerHTML = /*html*/ `
+        <button onclick="selectBun1()">↢</button>
+            <img src="img/mage3.png" />
+        <button onclick="selectBun3()">↣</button>
+        `;
+}
+function selectBun3() {
+    document.getElementById('bun') .innerHTML = /*html*/ `
+        <button onclick="selectBun2()">↢</button>
+            <img src="img/warrior3.png" />
+        <button onclick="selectBun4()">↣</button>
+        `;
+}
+function selectBun4() {
+    document.getElementById('bun') .innerHTML = /*html*/ `
+        <button onclick="selectBun3()">↢</button>
+            <img src="img/punch3.png" />
+        <button onclick="selectBun1()">↣</button>
+        `;
 }
 
 function blankAll() {

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skyrim Classes</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" async defer></script>
 </head>
 
 <body>
@@ -16,119 +17,43 @@
     <h1>Classes</h1>
     <div>
         <div class="boks">
-            <div class="overskrift thief">
+            <div class="overskrift thief" onclick="showThief()">
                 Thief
             </div>
-
-            <div class="tekst">
-                Skills:
-                <div class="list">
-                    <ul>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Light_Armor_(Skyrim)" target="_new">Light
-                                Armor</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Sneak_(Skyrim)" target="_new">Sneak</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Lockpicking_(Skyrim)"
-                                target="_new">Lockpicking</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Pickpocket" target="_new">Pickpocket</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Speech" target="_new">Speech</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Alchemy_(Skyrim)">Alchemy</a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="boksThief">
+               
             </div>
         </div>
         <div class="boks">
-            <div class="overskrift mage">
+            <div class="overskrift mage" onclick="showMage()">
                 Mage
             </div>
-
-            <div class="tekst">
-                Skills:
-                <div class="list">
-                    <ul>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Illusion_(Skyrim)" target="_new">Illusion</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Conjuration_(Skyrim)" target="_new">Conjuration</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Destruction_(Skyrim)" target="_new">Destruction</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Restoration_(Skyrim)" target="_new">Restoration</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Alteration_(Skyrim)" target="_new">Alteration</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Enchanting_(Skyrim)" target="_new">Enchanting</a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="boksMage">
+                
             </div>
         </div>
         <div class="boks">
-            <div class="overskrift warrior">
+            <div class="overskrift warrior" onclick="showWarrior()">
                 Warrior
             </div>
-
-            <div class="tekst">
-                Skills:
-                <div class="list">
-                    <ul>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Smithing_(Skyrim)" target="_new">Smithing</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Heavy_Armor_(Skyrim)" target="_new">Heavy Armor</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Block_(Skyrim)" target="_new">Block</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Two-Handed_(Skyrim)" target="_new">Two-Handed</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/One-Handed_(Skyrim)" target="_new">One-Handed</a>
-                        </li>
-                        <li>
-                            <a href="https://elderscrolls.fandom.com/wiki/Archery_(Skyrim)" target="_new">Archery</a>
-                        </li>
-                    </ul>
-                </div>
+            <div id="boksWarrior">
+                
             </div>
         </div>
         <div class="boks">
-            <div class="overskrift PUNCHCAT">
+            <div class="overskrift PUNCHCAT" onclick="showPUNCHCAT()">
                 PUNCHCAT
             </div>
-
-            <div class="tekst">
-                Skills:
-                <div class="list">
-                    <a href="https://www.reddit.com/r/skyrim/comments/mmu6f/the_tale_of_punchcat_the_punching_khajiit/">PUNCHING!</a>
-                </div>
+            <div id="boksPUNCHCAT">
+                
             </div>
         </div>
         <div class="boks">
-            <div class="overskrift spill">
+            <div class="overskrift spill" onclick="showSpill()">
                 Multiclassing
             </div>
-
-            <div class="tekst">
-                Fun things to come
+            <div id="boksSpill">
+                
             </div>
         </div>
     </div>

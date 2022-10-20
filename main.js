@@ -112,7 +112,7 @@ function showPUNCHCAT() {
                     Skills:
                     <div class="list">
                         <a
-                            href="https://www.reddit.com/r/skyrim/comments/mmu6f/the_tale_of_punchcat_the_punching_khajiit/">PUNCHING!</a>
+                            href="https://www.reddit.com/r/skyrim/comments/mmu6f/the_tale_of_punchcat_the_punching_khajiit/" target="_new">PUNCHING!</a>
                     </div>
                 </div>
     `;

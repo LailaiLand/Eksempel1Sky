@@ -18,6 +18,7 @@ div.overskrift {
     font-weight: bold;
     border: solid 2px black;
     padding: 10px;
+    user-select: none;
 }
 
 div.tekst {

@@ -226,3 +226,18 @@ function blankAll() {
     document.getElementById('boksPUNCHCAT') .innerHTML = '';
     document.getElementById('boksSpill') .innerHTML = '';
 }
+
+function flexLay() {
+    removeLay();
+    document.getElementById('bokser') .classList.add ('bokserFlex');
+}
+
+function gridLay() {
+    removeLay();
+    document.getElementById('bokser') .classList.add ('bokserGrid');
+}
+
+
+function removeLay() {
+    document.getElementById('bokser') .classList.value = '';
+}

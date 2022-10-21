@@ -4,10 +4,12 @@ body {
 
 
 div.boks {
-    width: 500px;
     background-color: darkgray;
     border: solid 2px black;
     margin-bottom: 10px;
+    width: 300px;
+
+
 }
 
 div.overskrift {
@@ -19,6 +21,8 @@ div.overskrift {
     border: solid 2px black;
     padding: 10px;
     user-select: none;
+    width: 300px;
+
 }
 
 div.tekst {
@@ -63,4 +67,19 @@ div.signs {
     flex-direction: row;
     align-items: center;
     padding: 0%;
+}
+
+div.bokserGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 33%);
+    width: auto;
+    
+}
+
+div.bokserFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
